@@ -1,0 +1,60 @@
+.f{
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    border: #97B1A6;
+    padding: 20px;
+    width: 400px;
+    height: 450px; 
+    color: white;
+
+}
+
+input[type="text"],input[type="password"],input[type="number"]
+{
+    width: 200px;
+    height: 20px;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid rgb(140, 136, 136);
+    border-color: #698996;
+}
+input[type="submit"]{
+    width: 77px;
+    height: 27px;
+    left: 180px;
+}
+.label{
+    padding: 10px;
+    text-align: right;
+    font-weight: bold;
+    
+}
+.radio{
+    display: flex;
+    display: inline;
+    float: right;
+    
+}
+.dropdown{
+    display: flex;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    float:right;
+    border-color: #698996;
+}
+.address{
+    display: flex;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+   border-color: #698996;        
+}
+.button{
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: #97B1A6;
+    background-color: #407076;
+    color: #f5f1e9;
+}

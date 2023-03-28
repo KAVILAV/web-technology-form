@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATION</title>
+
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Form</h1>
+        <form  name="form" onsubmit="return validation();" action="./index1.html" class="f">
+        
+        <div>
+            <label for="name" class="label">USERNAME </label>
+            <input type="text" id="name" name="name">
+        </div>
+        <br> 
+        <div>
+            <label for="pass" class="label">PASSWORD </label>
+            <input type="password" id="pass" name="pass">
+        </div>
+        <br>
+        <div>
+            <label for="cpass" class="label">CONFIRM PASSWORD</label>
+            <input type="password" id="cpass" name="cpass">
+        </div>
+        <br>
+        <div>
+            <label for="gender" class="label">GENDER</label>
+            <div class="radio">
+                <input type="radio" id="female" name="gender" value="F">
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="M">
+                <label for="male">Male</label>
+                <input type="radio" id="others" name="gender" value="O">
+                <label for="others">Others</label>
+            </div>
+
+        </div>
+        <br>
+        <div>
+            <label for="branch" class="label">BRANCH</label>
+            <div class="radio">
+                <input type="checkbox" id="aids" name="branch" value="AIML">
+                <label for="aids">AIDS</label>
+                <input type="checkbox" id="aiml" name="branch" value="AIDS">
+                <label for="aiml">AIML</label>
+                <input type="checkbox" id="cs" name="branch" value="CS">
+                <label for="cs">CS</label>
+                <input type="checkbox" id="it" name="branch" value="IT">
+                <label for="it">IT</label>
+            </div>
+
+        </div>
+        <br>
+        <div>
+            <label for="course" class="label">COURSE</label>
+
+            <select name="course" id="course" class="dropdown">
+              <option value="select">Select course</option>
+              <option value="WT">Web Technology</option>
+              <option value="OS">Operating Systems</option>
+              <option value="ML">Machine Learning</option>
+              <option value="Java">JavaScript</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="state" class="label">STATE</label>
+            <input type="text" id="state" name="state">
+        </div>
+      
+        <br>
+        <div>
+            <label for="num" class="label">CONTACT NUMBER</label>
+            <input type="number" id="num" name="num">
+        </div>
+        <br>
+        <div>
+            <label for="address" class="label">ADDRESS</label>
+            <br>
+            <textarea id="address" name="address" rows="4" cols="45" class="address"></textarea>
+        </div>
+
+        <input type="submit" name="submit" value="submit" class="button">
+        
+        </form>
+    </div>
+    <script src="./val.js"></script>
+
+</body>
+</html>
